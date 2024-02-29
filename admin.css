@@ -1,0 +1,164 @@
+/*Welcome to JAYSOFT ONLINE FOOD ORDERING SYSTEM
+Designed by JACKSON NGARI YAA an ICT Expert From Malindi 
+alSO dOUBLED to be ManAGING Director Of Jaysoft Systems
+which is a Technology Company owned by HIm*/
+/* Rich him through Email: jacksonngari93@gmail.com
+Company Email: jaysoftsystems93@gmail.com
+Secondary Email: systemsjaysoft@gmail.com
+Call or Whatsapp: +254702134979 AVAILABLE AT ALL TIMES*/
+
+/*general css*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*Welcome to JAYSOFT ONLINE FOOD ORDERING SYSTEM
+Designed by JACKSON NGARI YAA an ICT Expert From Malindi 
+alSO dOUBLED to be ManAGING Director Of Jaysoft Systems
+which is a Technology Company owned by HIm*/
+/* Rich him through Email: jacksonngari93@gmail.com
+Company Email: jaysoftsystems93@gmail.com
+Secondary Email: systemsjaysoft@gmail.com
+Call or Whatsapp: +254702134979 AVAILABLE AT ALL TIMES*/
+
+/*css for the sections general*/
+.wrapper{
+    /*you can now remove the wrapper by removing the border*/
+    /*border: 1px solid red;*/
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*Welcome to JAYSOFT ONLINE FOOD ORDERING SYSTEM
+Designed by JACKSON NGARI YAA an ICT Expert From Malindi 
+alSO dOUBLED to be ManAGING Director Of Jaysoft Systems
+which is a Technology Company owned by HIm*/
+/* Rich him through Email: jacksonngari93@gmail.com
+Company Email: jaysoftsystems93@gmail.com
+Secondary Email: systemsjaysoft@gmail.com
+Call or Whatsapp: +254702134979 AVAILABLE AT ALL TIMES*/
+
+/*CSS FOR MENU SECTION*/
+/*css for menu for aligning the text*/
+.menu{
+    border-bottom: 3px solid blue;/*css for drawing the line at bottom of menues*/
+    text-align: center;
+}
+/*css for menu for removing list type*/
+.menu ul{
+    list-style: none;
+}
+/*css for menu for menus to align inline*/
+.menu ul li{
+    display: inline;
+    padding: 1%;
+
+}
+/*css for menu for removing underlining of menus*/
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #ff4757;
+}
+/*css for hovering effect*/
+.menu ul li a:hover{
+    color: blue;
+}
+/*Welcome to JAYSOFT ONLINE FOOD ORDERING SYSTEM
+Designed by JACKSON NGARI YAA an ICT Expert From Malindi 
+alSO dOUBLED to be ManAGING Director Of Jaysoft Systems
+which is a Technology Company owned by HIm*/
+/* Rich him through Email: jacksonngari93@gmail.com
+Company Email: jaysoftsystems93@gmail.com
+Secondary Email: systemsjaysoft@gmail.com
+Call or Whatsapp: +254702134979 AVAILABLE AT ALL TIMES*/
+
+/*CSS FOR MAIN CONTENT*/
+/*css for main content separation btwn sections*/
+.main-content{
+    /*margin: 1% 0; /*FTER inserting  the backgroung color no need for the margin*/
+    background-color:beige; /*CSS for the backgroung color*/
+    padding: 3% 0;
+}
+/*CSS for the col-4 boxes created*/
+.col-4{
+    width: 18%;
+    background-color: blueviolet;
+    margin: 1%;
+    padding: 2%;
+    float: left; /*CSS for the boxes to align left not horizontally*/
+}
+/*Welcome to JAYSOFT ONLINE FOOD ORDERING SYSTEM
+Designed by JACKSON NGARI YAA an ICT Expert From Malindi 
+alSO dOUBLED to be ManAGING Director Of Jaysoft Systems
+which is a Technology Company owned by HIm*/
+/* Rich him through Email: jacksonngari93@gmail.com
+Company Email: jaysoftsystems93@gmail.com
+Secondary Email: systemsjaysoft@gmail.com
+Call or Whatsapp: +254702134979 AVAILABLE AT ALL TIMES*/
+
+/*CSS FOR THE COL-4 BOXES AFTER ALIGNING THEM HORIZONTALLY*/
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+
+
+/*Welcome to JAYSOFT ONLINE FOOD ORDERING SYSTEM
+Designed by JACKSON NGARI YAA an ICT Expert From Malindi 
+alSO dOUBLED to be ManAGING Director Of Jaysoft Systems
+which is a Technology Company owned by HIm*/
+/* Rich him through Email: jacksonngari93@gmail.com
+Company Email: jaysoftsystems93@gmail.com
+Secondary Email: systemsjaysoft@gmail.com
+Call or Whatsapp: +254702134979 AVAILABLE AT ALL TIMES*/
+
+
+/*css for footer notes p tag*/
+.text-center{
+    text-align: center;
+}
+
+/*Welcome to JAYSOFT ONLINE FOOD ORDERING SYSTEM
+Designed by JACKSON NGARI YAA an ICT Expert From Malindi 
+alSO dOUBLED to be ManAGING Director Of Jaysoft Systems
+which is a Technology Company owned by HIm*/
+/* Rich him through Email: jacksonngari93@gmail.com
+Company Email: jaysoftsystems93@gmail.com
+Secondary Email: systemsjaysoft@gmail.com
+Call or Whatsapp: +254702134979 AVAILABLE AT ALL TIMES*/
+
+/*css for footer*/
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+/*Welcome to JAYSOFT ONLINE FOOD ORDERING SYSTEM
+Designed by JACKSON NGARI YAA an ICT Expert From Malindi 
+alSO dOUBLED to be ManAGING Director Of Jaysoft Systems
+which is a Technology Company owned by HIm*/
+/* Rich him through Email: jacksonngari93@gmail.com
+Company Email: jaysoftsystems93@gmail.com
+Secondary Email: systemsjaysoft@gmail.com
+Call or Whatsapp: +254702134979 AVAILABLE AT ALL TIMES*/
+.btn-primary{
+    background-color: green;
+}
+.tbl-30{
+    width: 30%;
+}
+.btn-secondary{
+    background-color: #7bedaf;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+/*------these are styles or css for secondary update button hovering effect*/
+.btn-secondary:hover{
+   background-color: blue;
+}
+
